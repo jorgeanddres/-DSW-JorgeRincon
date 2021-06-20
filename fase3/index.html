@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fase2_G19</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
+        
+        <img src="img/web-design.jpg" alt="image de logo titulo" width="200" height="100">
         <hr>
         <h1>
             DISEÑO DE SITIOS WEB - (301122A_952)
         </h1>
+        <img src="img/web-design.jpg" alt="image de logo titulo" width="200" height="100">
     </header>
     <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li> <a href="#">Temas</a>
-                <ul>
-                    <li> <a href="#">Tema 1</a></li>
-                    <li> <a href="#">Tema 2</a></li>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li> <a href="index.html">Temas</a>
+                <ul class="dropdown">
+                    <li> <a href="tema1.html">Etiquetas Básicas de HTML</a></li>
+                    <li> <a href="tema2.html">Atributos y Valores</a></li>
                 </ul>
             </li>
             <li> <a href="#">Recursos Digitales</a>
-                <ul>
-                    <li> <a href="#">Recurso 1</a></li>
-                    <li> <a href="#">Recurso 2</a></li>
+                <ul class="dropdown">
+                    <li> <a href="recurso1.html">Recurso 1</a></li>
+                    <li> <a href="recurso2.html">Recurso 2</a></li>
                 </ul>
             </li>
             <li> <a href="#">Aprendizaje</a>
-                <ul>
-                    <li> <a href="#">Actividad 1</a></li>
-                    <li> <a href="#">Actividad 2</a></li>
+                <ul class="dropdown">
+                    <li> <a href="actividad1.html">Actividad 1</a></li>
+                    <li> <a href="actividad2.html">Actividad 2</a></li>
                 </ul>
             </li>
             <li> <a href="#">Acerca de</a>
-                <ul>
-                    <li> <a href="#">Autor</a></li>
+                <ul class="dropdown">
+                    <li> <a href="autor.html">Autor</a></li>
                 </ul>
             </li>
         </ul>
+        </ul>
     </nav>
-    <hr>
+    <div class="contenedor">
+
+        <aside>
+            <h4>Fan page</h4>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+
     <section>
         <h3>Proposito Del Sitio</h3>
         <p>
@@ -67,26 +79,13 @@
 
             </p>
         </article>
-
-        <article>
-            <h1>Atributos y Valores</h1>
-            <p>Los elementos en HTML deben tener atributos que mejoran o precisan la presentacion de la pagima; pues son valores adicionales que configuran los elementos o implementa la codificacion para satisfaccion del programador y de los usuarios.
-            </p>
-            <img src="img/atributos 1.JPG" alt="">
-
-            <p>"Los atributos son la forma que tienen los autores de definir propiedades para un elemento. Estas propiedades habitualmente cambian la forma en que los navegadores interpretan al elemento, al cambiar su significado o presentación."<strong>(Leon D, 2021, P.2).</strong>
-            </p>
-            <img src="img/atributos 2.JPG" alt=""> <img src="img/atributos 3.png" alt="">
-        </article>
     </section>
-    <h2>Mockup de la página principal</h2>
-    <img src="img/Mockup Fase 2 DSW.png" alt="" width="700" height="600">
+</div>
     
-    <hr>
     <footer>
         <p>
             Autor: Jorge Andres Rincon Pineda  Skype: jorgeanddres_1  Correo:  jarinconpi@unadvirtual.edu.co
-            <br>actualizacion: 11 de mayo de 2021
+            <br>actualizacion: 19 de junio de 2021
         </p>
     </footer>
 </body>
